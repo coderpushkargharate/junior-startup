@@ -1,44 +1,33 @@
 import { FaBaseballBall } from "react-icons/fa";
 import Shop from "./Shop";
-              
 
-function Home (){
-    return(
-        <>
-        <div className="container-fluid ">
-          <div className="container ">
-            <div className="row text-center g-5">
-                <div className="col-12 col-md-6 col-lg-4 border">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
 
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
-                </div>
-                <div className="col-12 col-md-6 col-lg-4">
-                <FaBaseballBall />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum doloremque vero assumenda, amet earum nulla corporis odio, dolore omnis neque officiis sapiente dolores hic cumque, accusantium illum necessitatibus ab.</p>
-                </div>
-
-            </div>
+function Home() {
+  return (
+    <>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
         </div>
-        <Shop/>
-        </>
-    )
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </>
+  )
 }
 export default Home;
