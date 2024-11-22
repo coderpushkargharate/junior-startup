@@ -4,6 +4,10 @@ import viteLogo from '/vite.svg'
 import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Bootstrap JavaScript (
 import './App.css'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+// import "./App.css"; // Your custom styles
+
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
