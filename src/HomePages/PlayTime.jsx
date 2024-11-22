@@ -3,8 +3,8 @@ import "../HomePages/playtime.css"
 function PlayTime() {
     return (
         <>
-            <div className="container-fluid mt-5" >
-                <div className="container" id="Playtime">
+            <div className="container-fluid py-5 " >
+                <div className="container mt-5" id="Playtime">
                     <div className="row g-5">
                         <div className="col-4 ">
                             <div className="row">

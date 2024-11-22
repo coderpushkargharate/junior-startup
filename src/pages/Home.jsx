@@ -7,6 +7,8 @@ import LatestEvents from "../HomePages/LatestEvents";
 import React from "react";
 import "../pages/home.css";
 import PlaygroundSection from "../HomePages/PlaygroundSection";
+import Empowering from "../HomePages/Empowering";
+import PopularCourses from "../HomePages/PopularCourses";
 
 
 const Home = () => {
@@ -112,6 +114,8 @@ const Home = () => {
         <PlayTime/>
         <Learningpage/>
         <LatestEvents/>
+        <Empowering/>
+        <PopularCourses/>
     </>
   );
 };
