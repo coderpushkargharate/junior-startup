@@ -1,3 +1,5 @@
+import { MdPeopleOutline } from "react-icons/md";
+import { LuClock9 } from "react-icons/lu";
 function PopularCourses() {
     return (
         <>
@@ -17,23 +19,23 @@ function PopularCourses() {
                 <div class="card">
                     <img src="public/homeimg/course-img-19.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Basic English for Kids</h5>
+                            <h5 class="card-title ">Basic English for Kids</h5>
                             Melisa Jones <br></br>
-                            <p class="card-text">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
+                            <p class="card-text mt-3">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            <small class="text-body-secondary"><MdPeopleOutline />1 &nbsp; &nbsp;<LuClock9 /> 2 hours</small>
                         </div>
                 </div>
                 <div class="card">
                     <img src="public/homeimg/course-img-16.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Fun Yoga for Toddlers</h5>
+                            <h5 class="card-title ">Fun Yoga for Toddlers</h5>
                             Melisa Jones <br></br>
-                            <p class="card-text">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
+                            <p class="card-text mt-3">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            <small class="text-body-secondary"><MdPeopleOutline />1 &nbsp; &nbsp;<LuClock9 /> 2 hours</small>
                         </div>
                 </div>
                 <div class="card">
@@ -41,10 +43,10 @@ function PopularCourses() {
                         <div class="card-body">
                             <h5 class="card-title">Weekend Music Lessons</h5>
                             Melisa Jones <br></br>
-                           <p class="card-text">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
+                           <p class="card-text mt-3">Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri te fabulas molestiae necess</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            <small class="text-body-secondary"><MdPeopleOutline />1 &nbsp; &nbsp;<LuClock9 /> 2 hours</small>
                         </div>
                 </div>
             </div>
