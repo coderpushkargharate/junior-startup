@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/footer.css"
 const Footer = () => {
   return (
-    <footer className="bg-light text-dark py-4 footer">
+    <footer className="bg-light text-dark py-4 footer ">
       <div className="container footer">
         <div className="row">
           {/* Educate Section */}

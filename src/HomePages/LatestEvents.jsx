@@ -4,7 +4,7 @@ import "../HomePages/LatestEvents.css"
 function LatestEvents() {
     return (
         <>
-            <div className="container-fluid" id="latest">
+            <div className="container-fluid py-5" id="latest">
                 <div className="container">
                 <div className="row">
                     <div className="col-12 text-center py-5">

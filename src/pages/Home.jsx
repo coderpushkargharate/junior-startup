@@ -9,6 +9,7 @@ import "../pages/home.css";
 import PlaygroundSection from "../HomePages/PlaygroundSection";
 import Empowering from "../HomePages/Empowering";
 import PopularCourses from "../HomePages/PopularCourses";
+import Kindergarten from "../HomePages/Kindergarten";
 
 
 const Home = () => {
@@ -116,6 +117,7 @@ const Home = () => {
         <LatestEvents/>
         <Empowering/>
         <PopularCourses/>
+        <Kindergarten/>
     </>
   );
 };

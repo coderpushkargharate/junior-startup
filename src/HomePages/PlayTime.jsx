@@ -6,7 +6,7 @@ function PlayTime() {
             <div className="container-fluid py-5 " >
                 <div className="container mt-5" id="Playtime">
                     <div className="row g-5">
-                        <div className="col-4 ">
+                        <div className="col-14 col-lg-4 ">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-2.png" alt="" />
@@ -26,7 +26,7 @@ function PlayTime() {
                             </div> */}
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit quis atque reiciendis vero, amet minima, molestiae totam doloribus itaque placeat officia praesentium temporibus aliquam cumque adipisci est ullam sunt.</p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-14 col-lg-4">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-3.png" alt="" />
@@ -39,7 +39,7 @@ function PlayTime() {
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit quis atque reiciendis vero, amet minima, molestiae totam doloribus itaque placeat officia praesentium temporibus aliquam cumque adipisci est ullam sunt.</p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-14 col-lg-4">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-1.png" alt="" />
@@ -52,7 +52,7 @@ function PlayTime() {
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit quis atque reiciendis vero, amet minima, molestiae totam doloribus itaque placeat officia praesentium temporibus aliquam cumque adipisci est ullam sunt.</p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-14 col-lg-4">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-4.png" alt="" />
@@ -65,7 +65,7 @@ function PlayTime() {
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit quis atque reiciendis vero, amet minima, molestiae totam doloribus itaque placeat officia praesentium temporibus aliquam cumque adipisci est ullam sunt.</p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-14 col-lg-4">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-5.png" alt="" />
@@ -78,7 +78,7 @@ function PlayTime() {
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati suscipit quis atque reiciendis vero, amet minima, molestiae totam doloribus itaque placeat officia praesentium temporibus aliquam cumque adipisci est ullam sunt.</p>
                         </div>
-                        <div className="col-4">
+                        <div className="col-14 col-lg-4">
                             <div className="row">
                                 <div className="col-6 playimg pb-3">
                                     <img src="public/homeimg/h1-icon-6.png" alt="" />
