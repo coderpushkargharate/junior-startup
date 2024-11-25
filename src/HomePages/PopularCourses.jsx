@@ -17,9 +17,9 @@ function PopularCourses() {
                     <div className="col-12">
                     <div class="card-group">
                 <div class="card mx-2">
-                    <img src="public/homeimg/course-img-19.jpg" class="card-img-top position-relative" alt="..."/>
+                    <img src="public/homeimg/course-img-19.jpg" class="card-img-top position-relative card-img"  alt="..."/>
                     <div className="position-absolute end-0 top-0 bgci">
-                    <CiHeart />
+                    <CiHeart className="ciheart"/>
                     </div>
                         <div class="card-body">
                             <h5 class="card-title ">Basic English for Kids</h5>
